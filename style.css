@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all .1s ease-in;
 }
 
 body {
@@ -319,6 +318,7 @@ h3 {
 
 .pricing-plan-wrapper {
     border: 1px solid transparent;
+    
 }
 
 .pricing-plan:hover .pricing-plan-wrapper {
@@ -328,6 +328,10 @@ h3 {
 .pricing-plan:hover .price {
     border: 1px solid #1dde85;
     background-color: #1dde85;
+    color: #fffcf4;
+}
+
+.pricing-plan:hover .price span {
     color: #fffcf4;
 }
 
