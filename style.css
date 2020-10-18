@@ -20,7 +20,7 @@ header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.90);
     border-bottom: 1px solid rgb(143, 142, 145, 0.5);
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .nav-block nav {
@@ -42,7 +42,7 @@ header {
     font-size: 14px;
     margin-right: 40px;
     text-transform: uppercase;
-    padding: 15px 0;
+    padding: 10px 0;
     border-bottom: 1px solid transparent;
 }
 
@@ -99,7 +99,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .service-header {
@@ -256,7 +256,7 @@ h3 {
 .section-portfolio {
     width: 80%;
     margin: auto;
-   padding-top: 120px; 
+   padding-top: 100px; 
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -311,7 +311,8 @@ h3 {
 .section-pricing {
     width: 80%;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 100px;
+    margin-bottom: 60px;
 }
 
 .pricing-row {
@@ -392,7 +393,7 @@ h5 {
 .section-contact-us {
     width: 100%;
     min-height: 500px;
-    padding-top: 120px;
+    padding-top: 90px;
     background: #000 url(img/contact-us-background.png) no-repeat center;
 }
 
@@ -401,6 +402,7 @@ h5 {
     font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .section-contact-us form {
@@ -455,9 +457,10 @@ textarea::placeholder {
 .section-contact-us form .submit-button {
     display: block;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 14px 30px;
 }
+
 
 footer {
     background-color: #0b0a0a;
@@ -546,4 +549,3 @@ footer a:hover {
     margin-top: 60px;
     font-size: 14px;
 }
-
